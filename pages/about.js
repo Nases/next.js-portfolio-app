@@ -5,7 +5,7 @@ export default () => {
   return (
     <Layout title='About'>
       <p>Javascript programmer</p>
-      <img src="/js-logo.jpg" alt="Javascript logo" height="200px" />
+      {/* <img src="/js-logo.jpg" alt="Javascript logo" height="200px" /> */}
     </Layout>
   )
 }

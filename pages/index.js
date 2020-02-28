@@ -4,7 +4,7 @@ import Layout from '../components/Layout'
 export default () => {
   return (
     <Layout title="Index">
-      <p className="title">Yo</p>
+      asd
     </Layout>
   )
 }
