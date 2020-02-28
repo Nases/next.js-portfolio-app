@@ -1,5 +1,10 @@
-const Index = () => {
-  return "It works!"
-}
+import Link from 'next/link'
+import Layout from '../components/Layout'
 
-export default Index
+export default () => {
+  return (
+    <Layout title="Index">
+      <p className="title">Yo</p>
+    </Layout>
+  )
+}
