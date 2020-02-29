@@ -3,7 +3,7 @@ import Layout from '../components/Layout'
 
 export default () => {
   return (
-    <Layout title="Index">
+    <Layout title="Next.js Portfolio App">
       <div className="grid grid-cols-3 gap-16">
         <div className="col-span-2">
           <img src='/assets/svg/nextjs.svg' alt="Next.js" />
