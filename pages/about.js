@@ -43,19 +43,19 @@ export default () => {
           </div>
           <p className="mb-4">
             <i className="fab fa-github"></i>
-            &nbsp; <a className="text-orange-500" href="https://github.com/Nases">Github</a>
+            &nbsp; <a className="text-orange-500" href="https://github.com/Nases" target="_blank">Github</a>
             <br />
             &nbsp; Public repos: <span className="text-green-500 blink">{user.publicGithubRepos}</span>
           </p>
           <p className="mb-4">
             <i className="fab fa-stack-overflow"></i>
-            &nbsp;&nbsp; <a className="text-orange-500" href="https://stackoverflow.com/users/10179445/hasan-sefa-ozalp?tab=profile">Stackoverflow</a>
+            &nbsp;&nbsp; <a className="text-orange-500" href="https://stackoverflow.com/users/10179445/hasan-sefa-ozalp?tab=profile" target="_blank">Stackoverflow</a>
             <br />
             &nbsp; Current rep: <span className="text-green-500 blink">{user.SOReputation}</span>
           </p>
           <p className="mb-4">
             <i className="fas fa-box-open "></i>
-            &nbsp;<a className="text-orange-500" href="https://codesandbox.io/u/Nases">CodeSandbox</a>
+            &nbsp;<a className="text-orange-500" href="https://codesandbox.io/u/Nases" target="_blank">CodeSandbox</a>
           </p>
           <p>
             <i className="fas fa-heart text-red-500"></i>
