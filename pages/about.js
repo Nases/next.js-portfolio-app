@@ -38,8 +38,10 @@ export default () => {
         <i class="fas fa-box-open text-orange-500"></i>
         sharing https://codesandbox.io/u/Nases
       </p>
-      <p>♥ Latin music & dancing 🕺</p>
-      {/* <img src="/js-logo.jpg" alt="Javascript logo" height="200px" /> */}
+      <p>
+        <i class="fas fa-heart text-orange-500"></i>
+        Latin music & dancing
+      </p>
     </Layout>
   )
 }
