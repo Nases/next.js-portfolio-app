@@ -52,7 +52,7 @@ export default ({ children, title }) => {
         {children}
         <footer className="mt-10 pt-4 border-orange-500">
           &copy; {new Date().getFullYear()}{' '}
-          <a className="text-orange-500" href="https://hasansefaozalp.com/">Hasan Sefa Ozalp</a>
+          <a className="text-orange-500" href="https://hasansefaozalp.com/" target="_blank">Hasan Sefa Ozalp</a>
         </footer>
         <script
           src="https://kit.fontawesome.com/c9c5a1adc4.js"
