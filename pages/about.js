@@ -19,29 +19,32 @@ export default () => {
   }, [])
   return (
     <Layout title='About'>
-      <h5>Stuff I do</h5>
+      <div className="grid grid-col-3 gap-4">
+        <div className="col-span-1 text-left">
+          <p>
+            <i className="fab fa-github"></i>
+            &nbsp; <a className="text-orange-500" href="https://github.com/Nases">Github</a>
 
-      <p>
-        <i class="fab fa-github text-orange-500"></i>
-        programming https://github.com/Nases
-      </p>
+          </p>
+          <p>
+            <i className="fab fa-stack-overflow"></i>
+            &nbsp;&nbsp; <a className="text-orange-500" href="https://stackoverflow.com/users/10179445/hasan-sefa-ozalp?tab=profile">Stackoverflow</a>
+            &nbsp; Current Rep: <span className="text-green-500 blink">{user.SOReputation}</span>
+          </p>
+          <p>
+            <i className="fas fa-box-open "></i>
+            &nbsp;<a className="text-orange-500" href="https://codesandbox.io/u/Nases">CodeSandbox</a>
+          </p>
+          <p>
+            <i className="fas fa-heart text-red-500"></i>
+            &nbsp;&nbsp;Latin music & dancing
+          </p>
+        </div>
+        <div className="col-span-2">
+          <img src="assets/svg/about-me.svg" alt="About me" />
+        </div>
+      </div>
 
-      <p className="text-orange-500">
-        <i class="fab fa-stack-overflow"></i>
-        <a href="https://stackoverflow.com/users/10179445/hasan-sefa-ozalp?tab=profile">Stackoverflow</a>
-        Current Rep: {user.SOReputation}
-      </p>
-
-      https://api.stackexchange.com/docs
-
-      <p>
-        <i class="fas fa-box-open text-orange-500"></i>
-        sharing https://codesandbox.io/u/Nases
-      </p>
-      <p>
-        <i class="fas fa-heart text-orange-500"></i>
-        Latin music & dancing
-      </p>
     </Layout>
   )
 }
