@@ -4,7 +4,6 @@ import Router from 'next/router'
 import NProgress from 'nprogress'
 
 Router.onRouteChangeStart = url => {
-  console.log(url)
   NProgress.start()
 }
 
@@ -22,8 +21,6 @@ export default ({ children, title }) => {
     <div>
       <Head>
         <title>{title}</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.js"></script>
       </Head>
       <nav className="flex items-center bg-orange-500 p-6 mb-12">
         <Link href="/">
