@@ -43,7 +43,7 @@ export default () => {
           </div>
           <p className="mb-4">
             <i className="fab fa-github"></i>
-            &nbsp; <a className="text-orange-500" href="https://github.com/Nases" target="_blank">Github</a>
+            &nbsp; <a className="text-orange-500" href="https://github.com/Nases" target="_blank">GitHub</a>
             <br />
             &nbsp; Public repos: <span className="text-green-500 blink">{user.publicGithubRepos}</span>
           </p>
