@@ -35,7 +35,7 @@ export default ({ children, title }) => {
       </nav>
       <div className='container text-center mx-auto'>
         {children}
-        <footer className="mt-10 pt-4 border-orange-500">
+        <footer className="mt-10 pt-4 border-orange-500 border-t-2 border-dashed">
           &copy; {new Date().getFullYear()}{' '}
           <a className="text-orange-500" href="https://hasansefaozalp.com/" target="_blank">Hasan Sefa Ozalp</a>
         </footer>
